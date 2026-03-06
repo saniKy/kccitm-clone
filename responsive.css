@@ -1,0 +1,293 @@
+@media (max-width:575px) {
+.sub-learn ul, .admt-warea ul {
+	column-count: 1;
+}
+}
+@media (max-width:767px) {
+.bnr-btm ul {
+	display: block;
+}
+.bnr-btm ul li {
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+section h2 {
+	font-size: 18px;
+}
+.table-responsive, .syl-warea h4 {
+	margin-top: 30px;
+}
+footer {
+	margin-bottom: 40px;
+}
+.bnr-btm ul li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+}
+.eve-reunions-tab .tab-list li {
+	display: contents;
+	font-size: 18px;
+}
+.eve-reunions-tab .tab-list {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+}
+.eve-reunions-tab .tab-list .tab-button {
+	flex: 1;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-bottom: none;
+	background: #F5E7C6;
+	text-align: center;
+	color: #000;
+}
+.eve-reunions-tab .tab-list .tab-button.active {
+	background: #b52a37;
+	border-color: #b52a37;
+	border-bottom: 1px solid #b52a37;
+	color: #fff;
+}
+.eve-reunions-tab .tab-pane {
+	display: none;
+}
+.eve-reunions-tab .tab-pane.active {
+	display: block;
+}
+.eve-reunions-tab .accordion-body {
+	padding: 1rem;
+	border: 1px solid #ddd;
+	margin-top: -1px;
+}
+.eve-reunions-tab .accordion-button {
+	cursor: pointer;
+}
+.eve-reunions-tab .accordion-button:not(.collapsed) + .accordion-body {
+	display: block;
+}
+@media (max-width:991px) {
+#mainNav .navbar-brand.logo {
+	width: 80px;
+}
+#mainNav .navbar-toggler {
+	color: #a90329;
+	border: 1px solid #a90329;
+}
+.eve-reunions-tab .accordion-button {
+	background-color: #F5E7C6;
+}
+.eve-reunions-tab .accordion-button:not(.collapsed) {
+	color: #fff;
+	background-color: #ae161c;
+}
+.eve-reunions-tab .accordion-button::after {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f077"; /* fa-chevron-up */
+	background-image: none;
+	transform: rotate(180deg);
+	transition: transform 0.3s ease;
+}
+.eve-reunions-tab .accordion-button:not(.collapsed)::after {
+	transform: rotate(0deg);
+}
+.dist-alum .image-container {
+	margin-bottom: 20px;
+}
+.al-success-stories img {
+	width: 100%;
+}
+.reveal {
+	opacity: 1;
+}
+.reveal-left, .reveal-right, .reveal-zoom {
+	transform: none;
+}
+.couter-main {
+	position: static;
+	overflow: hidden;
+}
+.couter-sec ul li {
+	width: 100%;
+}
+.couter-sec ul li .counting {
+	font-size: 40px;
+}
+.couter-sec ul li .counting {
+	border-left: 0;
+}
+.reunions-gly ul li {
+	flex: 1 1 calc(50% - 10px); /* 2 images per row */
+}
+.eve-reunions-tab .tab-content>.tab-pane {
+	display: block;
+	opacity: 1;
+}
+.eve-reunions-tab .accordion-body {
+	display: none;
+}
+.eve-reunions-tab .accordion-item.active .accordion-body {
+	display: block;
+}
+.legends-content ul {
+	display: block;
+}
+.legends-content ul li {
+	width: 100%;
+}
+.speaker-card {
+	margin-bottom: 20px;
+}
+.main_body .banner .btn-group {
+	display: flex;
+}
+.career-box {
+	margin-bottom: 30px;
+}
+.career-warea {
+	padding: 50px 0 20px;
+}
+.menu-btn {
+	position: relative;
+	z-index: 99;
+}
+#mob-menu .modal-fullscreen .modal-content {
+	height: 100%;
+	border: 0;
+	border-radius: 0;
+	background: #dee2e6;
+}
+#mob-menu li.nav-item {
+	border-bottom: 1px solid #1b1b1b;
+}
+#mob-menu li.nav-item:last-child {
+	border-bottom: 0px;
+}
+#mob-menu li.nav-item a {
+	color: #1b1b1b;
+	font-size: 16px;
+	margin-bottom: 6px;
+	font-weight: 500;
+}
+.main_body #mainNav {
+	height: 145px;
+}
+.main_body #mainNav.navbar-shrink {
+	padding-top: 23px;
+	background: #303030;
+	height: 145px;
+}
+.main_body #mainNav:after {
+	height: 100px;
+}
+.main_body .banner {
+	padding-top: 130px;
+}
+#mySlider.owl-carousel .owl-nav button.owl-prev {
+	width: 2.0rem;
+	height: 2.0rem;
+	font-size: 40px;
+}
+#mySlider.owl-carousel .owl-nav button.owl-next {
+	width: 2.0rem;
+	height: 2.0rem;
+	font-size: 40px;
+}
+.conference-bod ul li {
+	height: auto;
+}
+/*.main_body .logo img{width:75%;}*/
+.main_body .text-area {
+	position: static;
+	width: 100%;
+	color: #fff;
+	padding: 0px;
+	background: #ffffff21;
+	border-radius: 20px;
+}
+.main_body .text-area .btn-group {
+	display: block;
+}
+.main_body .banner .container {
+--bs-gutter-x: 0rem;
+}
+.main_body .text-area h1 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
+.main_body .text-area .desc {
+	padding: 10px;
+	background: #333;
+	margin-top: -25px;
+}
+.media-block .sylbs {
+	margin: auto;
+}
+.media-block ul li {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 48%;
+}
+.conference-bod .bodr {
+	border-right: 0px;
+}
+.conference-bod ul.tsr li .set-logo {
+	margin: 0 auto;
+	position: unset;
+}
+.conference-bod ul.tsr li {
+	text-align: center;
+	margin: 0 auto;
+}
+.set-text {
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+}
+.conference-bod ul.tsl li .set-logo {
+	position: unset;
+	margin: 0 auto;
+}
+.conference-bod ul.tsl li {
+	text-align: center;
+	margin: 0 auto;
+}
+.conference-bod ul.tsl li .set-text {
+	width: 100%;
+	margin-left: auto;
+}
+.conference-bod ul li:last-child {
+	border-bottom: 1px solid #6c757d4d;
+}
+}
+@media (max-width:480px) {
+.reunions-gly ul li {
+	flex: 1 1 100%; /* 1 image per row */
+}
+}
+ @media (max-width:1365px) {
+.admission-help, .admission-help1 {
+	top: 60px !important;
+}
+.admission-help1 {
+	top: 178px !important;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+section h2 {
+	font-size: 22px;
+}
+.sub-learn ul, .admt-warea ul {
+	column-count: 2;
+}
+}
+@media (min-width:576px) and (max-width:767px) {
+.sub-learn ul, .admt-warea ul {
+	column-count: 2;
+}
+}

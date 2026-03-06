@@ -1,5 +1,6 @@
 
 
+
 <!--Read More JS	-->
 		function myFunction() {
   var dots = document.getElementById("dots");
@@ -315,6 +316,3 @@ $(document).ready(function () {
 	$('.infra-category .carousel.slide').carousel({
     interval: 2000
 });
-
-
-
